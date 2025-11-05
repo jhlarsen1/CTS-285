@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DataMon - Math Helper</title>
+</head>
+<body style="font-family: Arial; text-align: center; margin-top: 50px;">
+    <h1>🧮 DataMon Math Checker</h1>
+    <p>Enter your math problem in the format <b>number operator number = answer</b></p>
+    <p>Example: <code>4+4=8</code></p>
+
+    <form action="/check" method="POST">
+        <input type="text" name="problem" placeholder="e.g. 6*7=42" required style="padding: 5px; width: 200px;">
+        <button type="submit" style="padding: 5px 10px;">Check Answer</button>
+    </form>
+</body>
+</html>
