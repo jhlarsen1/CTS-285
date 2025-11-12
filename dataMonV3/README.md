@@ -1,5 +1,5 @@
-Flask Quickstart Assignment
-Setting up virtual environment
+##Flask Quickstart Assignment
+###Setting up virtual environment
 cd flaskqs
 
 python -m venv venv
@@ -8,21 +8,21 @@ source venv/bin/activate
 
 (note this is for a Codespace or other Linux environment.)
 
-Installing flask
+##Installing flask
 pip install flask
 
-Create requirements.txt
+###Create requirements.txt
 (this allows you to easily reinstall)
 
 pip freeze > requirements.txt
 
-Confirm flask is installed properly
+##Confirm flask is installed properly
 flask --version
 
-Begin the Quickstart!
+###Begin the Quickstart!
 https://flask.palletsprojects.com/en/stable/quickstart/
 
-Notes
+##Notes
 You should probably launch the venv from the terminal, and also run the program there, so you don't have two competing virtual environments. (so don't click the dorito.)
 
 Default command which runs app.py:
@@ -33,5 +33,5 @@ Alternative:
 
 flask run --app minimal.py --debug
 
-From here
+###From here
 Build the QS!
